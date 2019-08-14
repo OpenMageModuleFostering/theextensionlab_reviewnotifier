@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>theextensionlab_reviewnotifier</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/OSL-3.0">Open Software License v3.0 (OSL-3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>An Extension to add new product review notifications via e-mail.</summary>
+    <description>An Extension to add new product review notifications via e-mail.</description>
+    <notes>Initial Release.</notes>
+    <authors><author><name>James Anelay</name><user>TheExtensionLab</user><email>james@theextensionlab.com</email></author></authors>
+    <date>2015-02-27</date>
+    <time>08:46:05</time>
+    <contents><target name="magecommunity"><dir name="TheExtensionLab"><dir name="ReviewNotifier"><dir><dir name="Helper"><file name="Data.php" hash="11fe9a548e511e7832cb25eaab56ab5f"/></dir><dir name="Model"><file name="Observer.php" hash="1f5e4a2444d7f191488df870d5b48e02"/></dir><dir name="Test"><dir name="Config"><file name="Main.php" hash="fe2a26fa38c7ac404620504fb9843c62"/></dir><dir name="Helper"><file name="Main.php" hash="9b3e071fbe52e35b08613e905f244278"/></dir><dir name="Model"><file name="Observer.php" hash="9ead917fbe2fb87eaa1dfc4921afc351"/></dir></dir><dir name="etc"><file name="config.xml" hash="24216f18a18eda22d8a66afef47a0603"/><file name="system.xml" hash="e8edf37061cdffbe8312c98966b720da"/></dir></dir></dir></dir></target><target name="mageweb"><dir name="app"><dir name="locale"><dir name="en_US"><dir name="template"><dir name="email"><dir name="theextensionlab"><dir name="reviewnotifier"><file name="new_review.html" hash="e1cf65071be5e2389befddda6704f44f"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="TheExtensionLab_ReviewNotifier.xml" hash="1f0dcedc88e187a50e47aef4705fe4ba"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
